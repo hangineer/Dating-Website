@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* #star {
+  background-image: url("../style/images/IMG_6163.png");
+} */
+
+#animate-area {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("../style/images/IMG_6162.jpg");
+  background-position: 0px 0px;
+  background-repeat: repeat-x;
+  animation: animatedBackground 120s linear infinite alternate;
+}
+
+#star {
+  width: 1900px;
+  height: 1080px;
+  /* overflow: hidden; */
+  background-image: url("../style/images/IMG_6163.png");
+  background-position: 0px 0px;
+  background-repeat: repeat-x;
+  animation: animatedBackground 100s linear infinite alternate;
+}
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100% 0;
+  }
+}
+
+#logo {
+  width: 16%;
+  height: auto;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+#login {
+  width: 16%;
+  height: auto;
+  position: absolute;
+  top: 7%;
+  left: 30%;
+}
+#members {
+  width: 16%;
+  height: auto;
+  position: absolute;
+  top: 40%;
+  left: 15%;
+}
+#aboutUs {
+  width: 16%;
+  height: auto;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+}
+#active {
+  width: 16%;
+  height: auto;
+  position: absolute;
+  top: 40%;
+  left: 75%;
+}
+#match {
+  width: 16%;
+  height: auto;
+  position: absolute;
+  top: 15%;
+  left: 55%;
+}
+/* 登出按鈕 */
+.logoutBtn {
+  background-color: #9146a6;
+  border-radius: 25%;
+  border-style: hidden;
+  color: white;
+  position: absolute;
+  cursor: pointer;
+  bottom: 5px;
+  left: 5px;
+  font-size: 2em;
+}

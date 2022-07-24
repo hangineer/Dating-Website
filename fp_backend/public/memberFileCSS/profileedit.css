@@ -1,0 +1,89 @@
+.editTitle {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  /* text-align: center; */
+  color: #222;
+  margin-top: 2vh;
+  margin-left: 25vh;
+  /* background-color: rgb(145, 61, 61); */
+}
+
+.editBox {
+  overflow: scroll;
+  width: 60%;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  margin: 0px auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 10%;
+}
+
+.editBox2 {
+  width: 40%;
+  height: auto;
+  /* background-color: rgb(33, 20, 155); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10%;
+  margin-left: 30%;
+  font-size: 18px;
+}
+
+.chooseImg {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(94, 0, 0); */
+}
+
+.profile-pic-div {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid grey;
+}
+
+#photo {
+  width: 150px;
+  height: 150px;
+}
+
+#file {
+  display: none;
+}
+
+#uploadBtn {
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  color: wheat;
+  line-height: 30px;
+  font-family: sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  display: none;
+}
+
+form {
+  font-size: 25px;
+}

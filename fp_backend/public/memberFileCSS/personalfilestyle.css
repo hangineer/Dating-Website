@@ -1,0 +1,698 @@
+body {
+  font-family: Arial, "Microsoft JhengHei";
+}
+
+
+
+
+/* --------個人檔案-------- */
+/* 個人檔案頁籤大區塊 */
+
+.userinfoBox {
+  overflow: scroll;
+  width: 100%;
+  height: auto;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+/* 個人資訊區塊  */
+
+.userinfoTitle {
+  /* background-color: blue; */
+  width: 70%;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /*水平置中*/
+  align-items: center;
+  /*垂直置中*/
+}
+/* 大頭貼區塊  */
+
+.titleTop {
+  /* background-color: rgb(255, 115, 255); */
+  width: 30%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  /*水平置中*/
+  align-items: center;
+  /*垂直置中*/
+}
+/* 生日興趣職業星座大區塊  */
+
+.titleRight {
+  /* background-color: rgb(190, 190, 255); */
+  width: 70%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  /*水平置中*/
+  align-items: center;
+  /*垂直置中*/
+}
+/*  感興趣活動區塊  */
+
+.activityLike {
+  /* background-color: #4B3C63; */
+  width: 70%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  /*水平置中*/
+  align-items: center;
+  /*垂直置中*/
+}
+/* 自我介紹區塊  */
+
+.selfintroduction {
+  /* background-color: #bed3ff; */
+  width: 70%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  /*水平置中*/
+  align-items: center;
+  /*垂直置中*/
+}
+/* 自我介紹框框  */
+
+.selfintroductionBox {
+  background-color: #f2f2f2;
+  width: 500px;
+  height: 400px;
+  border-radius: 15px;
+  text-align: center;
+  position: relative;
+}
+/* 自我介紹標題樣式  */
+
+#selfTitle {
+  color: rgb(133, 133, 133);
+  /* background-color: aqua; */
+}
+/* 自我介紹內文  */
+
+#userSelfintroduction {
+  margin-top: 40px;
+  text-align: left;
+}
+/* 感興趣活動框框  */
+
+.activitylikeBox {
+  background-color: aquamarine;
+  width: 500px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px 15px 15px 15px;
+}
+/*  感興趣活動icon樣式  */
+
+#interestIcon {
+  background-color: #ffffff;
+  width: 100px;
+  height: 100px;
+  border-radius: 15px 0px 0px 15px;
+  display: flex;
+  justify-content: center;
+  /*水平置中*/
+  align-items: center;
+  /*垂直置中*/
+}
+/* 感興趣活動的icon樣式 */
+
+.iconify {
+  width: 90px;
+  height: 70px;
+}
+/*  感興趣活動 內容 區塊  */
+
+.interestContent {
+  background-color: #ffffff;
+  width: 400px;
+  height: 100px;
+  border-radius: 0px 15px 15px 0px;
+  display: flex;
+  justify-content: center;
+  /*水平置中*/
+  align-items: center;
+  /*垂直置中*/
+  flex-direction: column;
+}
+/*  感興趣活動文字標題樣式  */
+
+.interTitle {
+  color: rgb(80, 80, 80);
+  align-self: flex-start;
+}
+/* 感興趣活動標籤  */
+
+#useractivityLike {
+  align-self: flex-start;
+}
+#useractivityLike span {
+  color: rgb(0, 0, 0);
+  flex-wrap: wrap;
+  background-color: #bbbbbb;
+}
+/* 大頭貼內區塊  */
+
+.titletopInside {
+  /* background-color: aqua; */
+  width: 150px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+/* 會員頭貼 */
+
+#userImage {
+  /* background-color: black; */
+  width: 150px;
+  height: 150px;
+}
+
+#userImage img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+/* 大頭貼div */
+
+.titleBottom {
+  /* background-color: rgb(145, 145, 255); */
+  height: 100px;
+  width: 150px;
+  text-align: center;
+}
+/* 暱稱與性別icon區塊 */
+
+#nameGender {
+  /* background-color: saqua; */
+  font-size: 20px;
+  color: #080808;
+  position: relative;
+}
+/* 會員id */
+
+#userId {
+  color: darkgray;
+}
+/* 性別ico樣式 */
+
+#genderItem {
+  width: 20px;
+  height: 20px;
+  /* background-color: rgb(255, 152, 17); */
+}
+/* 地區 */
+
+#userAdd {
+  color: #080808;
+}
+/* 年齡 */
+
+#userAge {
+  color: #080808;
+}
+/* 生日 */
+
+.titlerightBox {
+  width: 450px;
+  height: 200px;
+  /* background-color: black; */
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*水平置中*/
+  flex-direction: column;
+}
+/* 生日興趣職業星座框框橫向1區塊 */
+
+.rightBoxone {
+  background-color: #f2f2f2;
+  height: 100px;
+  border-radius: 14px 14px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/* 生日區塊  */
+
+.birthBox {
+  background-color: #f2f2f2;
+  border-radius: 14px 0px 0px 0px;
+  width: 133.3px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+/* 生日區塊文字 */
+
+span {
+  text-align: center;
+}
+/* 星座區塊  */
+
+.zodiacBox {
+  background-color: #f2f2f2;
+  border-radius: 0px 0px 0px 0px;
+  width: 133.3px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+/* 職業區塊 */
+
+.jobBox {
+  background-color: #f2f2f2;
+  border-radius: 0px 14px 0px 0px;
+  width: 133.3px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+/* 生日興趣職業星座框框橫向2區塊 */
+
+.rightBoxtwo {
+  background-color: #f2f2f2;
+  height: 100px;
+  border-radius: 0px 0px 14px 14px;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+/*編輯按鈕 */
+
+#editIcon {
+  display: flex;
+  margin-left: 95%;
+  font-size: 40px;
+  padding: 5px;
+  background-color: rgba(0, 255, 255, 0);
+  border: none;
+  cursor: pointer;
+}
+/* 會員生日 */
+
+#userBirth {
+  color: #000000;
+}
+/* 會員星座 */
+
+#userZodiac {
+  color: #080808;
+}
+/* 會員職業 */
+
+#userJob {
+  color: #080808;
+}
+/* 會員興趣 */
+
+#userInterest {
+  color: #080808;
+}
+/* ------帳號管理 ----*/
+
+.manageBox {
+  overflow: scroll;
+  width: 100%;
+  height: 100%;
+  /* background-color: aqua; */
+  position: relative;
+}
+
+.manageboxstyle {
+  display: grid;
+  grid-template-columns: 90% 10%;
+  gap: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 5vh;
+  border-radius: 15px;
+  width: 65vh;
+  height: 10vh;
+  align-items: center;
+  /* justify-items: center; */
+}
+
+.manageTitle {
+  line-height: 10vh;
+  font-size: 2vh;
+}
+
+#editMail {
+  font-size: 2vh;
+}
+
+#editName {
+  font-size: 2vh;
+}
+
+#editPassword {
+  font-size: 2vh;
+}
+
+.manageBlocklist {
+  background-color: rgb(255, 255, 255);
+  width: 65vh;
+  height: auto;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+     justify-items: center; */
+  margin: 0 auto;
+  margin-top: 5vh;
+  padding: 10px;
+  font-size: 2vh;
+}
+
+.BlockItem {
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  background-color: rgb(145, 145, 145);
+  width: 45vh;
+  height: 10vh;
+  margin: 0px auto;
+  margin-top: 2vh;
+}
+
+.BlockItem1 {
+  /* background-color: blue; */
+  width: 9vh;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.BlockItem2 {
+  /* background-color: rgb(255, 132, 132); */
+  width: 30vh;
+}
+
+.BlockItem3 {
+  /* background-color: rgb(190, 190, 255); */
+  width: 9vh;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.BlockItem1 > img {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  margin-left: 10px;
+}
+
+#ItemName {
+  /* background-color: aqua; */
+  margin-top: 20px;
+}
+
+#ItemId {
+  /* background-color: aqua; */
+  margin-bottom: 20px;
+}
+
+#unblock {
+  font-size: 15px;
+}
+
+.coinsBox {
+  overflow: scroll;
+  width: 100%;
+  height: 500vh;
+  /* background-color: aqua; */
+}
+
+.coinsboxstyle {
+  display: grid;
+  grid-template-columns: 90% 10%;
+  gap: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 5vh;
+  border-radius: 15px;
+  width: 65vh;
+  height: 10vh;
+  align-items: center;
+  /* justify-items: center; */
+}
+
+.coinsTitle {
+  line-height: 10vh;
+  font-size: 2vh;
+}
+
+#lookRecord {
+  font-size: 2vh;
+}
+
+.coinsRecord {
+  background-color: rgb(255, 255, 255);
+  width: 65vh;
+  height: auto;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+    justify-items: center; */
+  margin: 0 auto;
+  margin-top: 5vh;
+  padding: 10px;
+  font-size: 2vh;
+}
+
+.coinsList {
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  background-color: rgb(187, 187, 187);
+  width: 45vh;
+  height: 30vh;
+  margin: 0px auto;
+  margin-top: 1vh;
+}
+
+.grid-container {
+  display: grid;
+  height: 200px;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+  margin: 0px auto;
+}
+
+.grid-container > div {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  text-align: center;
+  font-size: 20px;
+}
+
+/* 修改帳號彈跳視窗 */
+
+.overlay {
+  position: absolute;
+  display: none;
+  overflow: hidden;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+}
+
+.popup {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+
+  left: 25%;
+  text-align: center;
+  background: white;
+}
+
+.popup h3 {
+  font-size: 15px;
+  height: 50px;
+  line-height: 50px;
+  color: black;
+}
+.CloseIcon {
+  cursor: pointer;
+  float: right;
+}
+
+/* star */
+
+/* @import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400); */
+@import url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+
+  /* background-color: #c50000; */
+  padding: 4px;
+}
+
+.inner {
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  /* background-color: rgb(126, 126, 126); */
+  /* border: 2px solid black; */
+  overflow: hidden;
+  position: relative;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.rating {
+  margin-top: 20px;
+  width: 45%;
+  text-align: center;
+  /* background-color: #8bdb23; */
+}
+
+.rating-num {
+  color: #333333;
+  font-size: 72px;
+  font-weight: 100;
+  line-height: 1em;
+}
+
+.rating-stars {
+  font-size: 20px;
+  color: #e3e3e3;
+  margin-bottom: 0.5em;
+}
+
+.rating-stars .active {
+  color: #ffda33;
+}
+
+.rating-stars .noactive {
+  color: #b9b9b9;
+}
+
+.rating-users {
+  font-size: 14px;
+}
+
+.histo {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  font-size: 13px;
+  /* background-color: #ffa9a9; */
+  padding: 20px;
+}
+
+.histo-star {
+  flex-direction: row-reverse;
+  display: flex;
+  padding: 3px;
+  margin-right: 8px;
+  margin-bottom: 5px;
+}
+
+.histo-rate {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  clear: both;
+}
+
+/* .bar-block {
+    
+    color: black;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    position: relative;
+    background-color: rgb(167, 167, 167);
+} */
+
+.bar {
+  padding: 4px;
+  display: block;
+}
+
+#bar-five {
+  width: 100%;
+  background-color: #9fc05a;
+  margin-bottom: 5px;
+}
+
+#bar-four {
+  width: 35%;
+  background-color: #add633;
+  margin-bottom: 5px;
+}
+
+#bar-three {
+  width: 20%;
+  background-color: #ffd834;
+  margin-bottom: 5px;
+}
+
+#bar-two {
+  width: 15%;
+  background-color: #ffb234;
+  margin-bottom: 5px;
+}
+
+#bar-one {
+  width: 30%;
+  background-color: #ff8b5a;
+  margin-bottom: 5px;
+}
+
+/* 活動心得彈跳視窗 */
+.overlay2 {
+  position: absolute;
+  display: none;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+  height: 500vh;
+}
+
+.popup2 {
+  position: absolute;
+  width: 50%;
+  height: 60vh;
+  top: 1%;
+  left: 25%;
+  /* text-align: center; */
+  background: white;
+}
+
+#activitypic {
+  z-index: 2000;
+}
