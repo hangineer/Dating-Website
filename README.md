@@ -1,5 +1,7 @@
 # 宇你相遇 交友網站
 
+備註: 若看不到字體，是因Logo字體為白色，與背景融合
+
 ![](fp_frontend/src/style/images/IMG_6204.gif "logo")
 
 ### 負責內容:
