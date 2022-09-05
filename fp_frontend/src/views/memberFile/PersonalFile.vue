@@ -397,243 +397,6 @@
       </div>
       <!--Personal file ends -->
 
-      <!-- my comment -->
-      <div class="tabandIcon" id="ShowPage3" style="display: none">
-        <div id="mainTab">
-          <ul class="tab-list clearfloat">
-            <li class="tab-itom">
-              <input
-                type="radio"
-                id="testTabRadio5"
-                class="test-radio"
-                name="tab2"
-                checked="checked"
-              />
-              <label
-                class="test-label"
-                for="testTabRadio5"
-                style="display: none"
-                >好友留言</label
-              >
-              <div class="tab-box">
-                <div class="commentContainer">
-                  <div id="fullpage">
-                    <div class="speech-bubble">
-                      <img
-                        id="commentuserImg"
-                        src="../../style/images/profile4.jpg"
-                        alt=""
-                      />
-                      <span class="nick">Amy says:</span>
-
-                      <p class="message">
-                        &nbsp;&nbsp;&nbsp;主持人很會帶領氣氛!下次還要參加!
-                      </p>
-                      <div class="commenTitle-3">
-                        <div id="comment_date">評論日期<span></span></div>
-                        <button class="deleteme">刪除留言</button>
-                      </div>
-                    </div>
-
-                    <div class="speech-bubble">
-                      <img
-                        id="commentuserImg"
-                        src="../../style/images/profile4.jpg"
-                        alt=""
-                      />
-                      <span class="nick">Amy says:</span>
-                      <p class="message">
-                        &nbsp;&nbsp;&nbsp;主持人很會帶領氣氛!下次還要參加!
-                      </p>
-                      <div class="commenTitle-3">
-                        <div id="comment_date">評論日期</div>
-                        <button class="deleteme">刪除留言</button>
-                      </div>
-                    </div>
-
-                    <div class="speech-bubble">
-                      <img
-                        id="commentuserImg"
-                        src="../../style/images/profile4.jpg"
-                        alt=""
-                      />
-                      <span class="nick">Amy says:</span>
-                      <p class="message">
-                        &nbsp;&nbsp;&nbsp;主持人很會帶領氣氛!下次還要參加!
-                      </p>
-                      <div class="commenTitle-3">
-                        <div id="comment_date">評論日期</div>
-                        <button class="deleteme">刪除留言</button>
-                      </div>
-                    </div>
-                    <div class="speech-bubble">
-                      <img
-                        id="commentuserImg"
-                        src="../../style/images/profile4.jpg"
-                        alt=""
-                      />
-                      <span class="nick">Amy says:</span>
-                      <p class="message">
-                        &nbsp;&nbsp;&nbsp;主持人很會帶領氣氛!下次還要參加!
-                      </p>
-
-                      <div class="commenTitle-3">
-                        <div id="comment_date">評論日期</div>
-                        <button class="deleteme">刪除留言</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- myphoto -->
-
-      <div class="tabandIcon" id="ShowPage5" style="display: none">
-        <div id="mainTab">
-          <ul class="tab-list clearfloat">
-            <li class="tab-itom">
-              <input
-                type="radio"
-                id="testTabRadio14"
-                class="test-radio"
-                name="tab5"
-                checked="checked"
-              />
-              <label
-                class="test-label"
-                for="testTabRadio14"
-                style="display: none"
-                >活動照片</label
-              >
-              <div class="tab-box">
-                <div
-                  class="uploadimgBox"
-                  id="uploadimgBox"
-                  style="display: flex"
-                >
-                  <h1>上傳照片</h1>
-                  <div class="uploadimg">
-                    <form action="">
-                      <input class="imgName" type="file" name="image" />
-                      <br />
-                      <input class="uploadBtn" type="submit" value="上傳" />
-                    </form>
-                  </div>
-                </div>
-
-                <div
-                  class="photoOverlay"
-                  id="photoOverlay1"
-                  style="display: none"
-                >
-                  <div class="photoPopup">
-                    <div onclick="closephoto1()" class="closePhotoIcon">
-                      &#10006;
-                    </div>
-                    <div class="photoideaBox">
-                      <div class="myPhoto">
-                        <!-- <img
-                          src="../../style/images/unsplash_jWv1ILisuSc (1).png"
-                          alt=""
-                        /> -->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="privatePhotobox" id="privatePhotobox">
-                  <div class="photo-album">
-                    <div class="photo-frame">
-                      <div class="photo">
-                        <!-- <img
-                          onclick="openphoto1()"
-                          src="../../style/images/unsplash_jWv1ILisuSc (1).png"
-                          alt=""
-                        /> -->
-                      </div>
-                    </div>
-
-                    <div class="photo-frame">
-                      <div class="photo">
-                        <!-- <img
-                          src="../../style/images/unsplash_jWv1ILisuSc (1).png"
-                          alt=""
-                        /> -->
-                      </div>
-                    </div>
-
-                    <div class="photo-frame">
-                      <div class="photo">
-                        <!-- <img
-                          src="../../style/images/unsplash_jWv1ILisuSc (1).png"
-                          alt=""
-                        /> -->
-                      </div>
-                    </div>
-
-                    <div class="photo-frame">
-                      <div class="photo">
-                        <!-- <img
-                          src="../../style/images/unsplash_jWv1ILisuSc (1).png"
-                          alt=""
-                        /> -->
-                      </div>
-                    </div>
-
-                    <div class="photo-frame">
-                      <div class="photo">
-                        <!-- <img
-                          src="../../style/images/unsplash_jWv1ILisuSc (1).png"
-                          alt=""
-                        /> -->
-                      </div>
-                    </div>
-
-                    <div class="photo-frame">
-                      <div class="photo">
-                        <!-- <img
-                          src="../../style/images/unsplash_jWv1ILisuSc (1).png"
-                          alt=""
-                        /> -->
-                      </div>
-                    </div>
-
-                    <div class="photo-frame">
-                      <div class="photo">
-                        <!-- <img
-                          src="../../style/images/unsplash_jWv1ILisuSc (1).png"
-                          alt=""
-                        /> -->
-                      </div>
-                    </div>
-
-                    <div class="photo-frame">
-                      <div class="photo">
-                        <!-- <img
-                          src="../../style/images/unsplash_jWv1ILisuSc (1).png"
-                          alt=""
-                        /> -->
-                      </div>
-                    </div>
-                    <div class="photo-frame">
-                      <div class="photo">
-                        <!-- <img
-                          src="../../style/images/unsplash_jWv1ILisuSc (1).png"
-                          alt=""
-                        /> -->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-
       <!-- <script src="./profileedit.js"></script>
         <script src="./iconic-multiselect-dev/dist/multi-select-min.js"></script>
         <script src="./iconic-multiselect-dev/dist/multi-select.js"></script>
@@ -678,7 +441,7 @@ export default {
       appear: false,
       choosePhoto: "",
 
-      // 資料顯示，下面若註解，資料就顯示不出來，不確定原因
+      // 會員資料顯示
       nickName: this.NickName,
       Age: this.Age,
       array: this.array,
@@ -773,7 +536,7 @@ export default {
           alert(err.data.message);
         });
       return (this.currentPage = 1);
-      location.reload();
+      // location.reload();
     },
     chooseFile(e) {
       console.log(e);
@@ -869,9 +632,6 @@ export default {
 };
 </script>
 
-<!-- <style scoped lang="css" src="../../style/activityphoto新版.css"></style> -->
-<!-- <style scoped lang="css" src="../../style/home.css"></style> -->
-<!-- <style scoped lang="css" src="../../style/mycomment.css"></style> -->
 <style scoped lang="css" src="../../style/hambuger.css"></style>
 <style scoped lang="css" src="../../style/pngMachinestyle.css"></style>
 <style scoped lang="css" src="../../style/profileedit.css"></style>
