@@ -4,8 +4,7 @@
       <form class="signIn_form" id="signIn_form">
         <h2 class="title">Sign in</h2>
         <div class="input">
-          <!-- <i class="fas fa-envelope"></i> -->
-          <i class="">
+          <i>
             <font-awesome-icon :icon="['fas', 'envelope']" />
           </i>
           <input
@@ -17,7 +16,7 @@
         </div>
         <div class="input">
           <!-- <i class="fas fa-lock"></i> -->
-          <i class="">
+          <i>
             <font-awesome-icon :icon="['fas', 'envelope']" />
           </i>
           <input
