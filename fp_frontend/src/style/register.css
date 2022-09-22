@@ -600,6 +600,7 @@ input[type="range"]::-moz-range-thumb {
 #introduction {
   width: 250px;
   height: 250px;
+  margin-left: 50px;
   /* margin-top: 10px; */
 }
 

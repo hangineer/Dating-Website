@@ -437,7 +437,6 @@ export default {
 
       // 編輯大頭照
       avatar: "",
-      // avatar: require("../../style/images/profile1.jpg"),
       appear: false,
       choosePhoto: "",
 
@@ -449,7 +448,6 @@ export default {
       activity: [],
       selectdActivity: [],
       introduction: "",
-      // avatar: "",
     };
   },
   methods: {

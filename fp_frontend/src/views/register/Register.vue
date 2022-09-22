@@ -488,8 +488,8 @@ export default {
     let testButton = () => {
       console.log(this);
       this.userForm = {
-        email: "mfee240712@gmail.com",
-        password: "20220727",
+        email: "test0922@gmail.com",
+        password: "0000",
         nickName: "美美",
         birthday: "2002-07-27",
         gender: "F",
