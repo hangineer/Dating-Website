@@ -23,7 +23,20 @@
 
 [雲端連結](https://drive.google.com/drive/folders/1yol7xXzJXFqYeU3ykbdVIOz--MPFqC8w?usp=sharing)
 
-### TODO
+### 啟動專案
+後端
+```shell
+cd fp_backend
+npm install
+node app.js
+```
 
+前端
+```shell
+cd fp_frontend
+npm install
+npm run serve
+```
+### TODO
 1. 整合夥伴的程式碼，將整個網站各頁面串聯起來
 2. 更善用 Vue.js 的元件來進行溝通、資料傳遞
